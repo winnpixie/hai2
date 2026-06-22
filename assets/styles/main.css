@@ -25,3 +25,17 @@ footer {
     text-align: center;
     border-top: 2px solid var(--x-accent-color);
 }
+
+@media screen (width < 720px) {
+    header {
+	width: 100%;
+    }
+
+    main {
+	width: 90%;
+    }
+
+    footer {
+	width: 100%;
+    }
+}
