@@ -1,6 +1,4 @@
-:root {
-    --x-accent-color: #FACADE;
-}
+/* Elements */
 body {
     margin: 0;
     padding: 0;
@@ -11,7 +9,7 @@ header {
     width: 60%;
     margin: 0 auto;
     text-align: center;
-    border-bottom: 2px solid var(--x-accent-color);
+    border-bottom: 2px solid #FACADE;
 }
 
 main {
@@ -23,12 +21,13 @@ footer {
     width: 60%;
     margin: 0 auto;
     text-align: center;
-    border-top: 2px solid var(--x-accent-color);
+    border-top: 2px solid #BADD1E;
 }
 
+/* Mobile */
 @media (width <= 640px) {
     header {
-	width: 100%;
+	width: 95%;
     }
 
     main {
@@ -36,6 +35,6 @@ footer {
     }
 
     footer {
-	width: 100%;
+	width: 95%;
     }
 }
